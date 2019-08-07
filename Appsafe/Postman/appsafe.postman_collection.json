@@ -1,0 +1,724 @@
+{
+	"info": {
+		"_postman_id": "9f525fab-7d16-45c1-88e0-40937fffcc25",
+		"name": "appsafe",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GET motos",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:3000/app/motos",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"app",
+						"motos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST Motos",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "tipo",
+							"value": "Alto cilindraje",
+							"type": "text"
+						},
+						{
+							"key": "placa",
+							"value": "657hgRT",
+							"type": "text"
+						},
+						{
+							"key": "modelo",
+							"value": "2018",
+							"type": "text"
+						},
+						{
+							"key": "color",
+							"value": "Negro",
+							"type": "text"
+						},
+						{
+							"key": "marca",
+							"value": "yamaha",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/app/motos",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"app",
+						"motos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete motos",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:3000/app/moto/5d4ae50c2719400a2d217d15",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"app",
+						"moto",
+						"5d4ae50c2719400a2d217d15"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Put motos",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "modelo",
+							"value": "2007",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/app/moto/5d4ae50c2719400a2d217d15",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"app",
+						"moto",
+						"5d4ae50c2719400a2d217d15"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get prestamos",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:3000/app/prestamos",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"app",
+						"prestamos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST prestamos",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "hora_entrada",
+							"value": "10am",
+							"type": "text"
+						},
+						{
+							"key": "hora_salida",
+							"value": "6pm",
+							"type": "text"
+						},
+						{
+							"key": "fecha_prestamo",
+							"value": "12/05/2019",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/app/prestamos",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"app",
+						"prestamos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DELETE prestamo",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:3000/app/prestamo/5d4ae74a91b4ab0b806d3bd5",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"app",
+						"prestamo",
+						"5d4ae74a91b4ab0b806d3bd5"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PUT prestamos",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "hora_entrada",
+							"value": "12pm",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/app/prestamo/5d4ae79796d8e20bb206e353",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"app",
+						"prestamo",
+						"5d4ae79796d8e20bb206e353"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get registros",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:3000/app/registros",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"app",
+						"registros"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST registros",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "hora_entrada",
+							"value": "9am",
+							"type": "text"
+						},
+						{
+							"key": "hora_salida",
+							"value": "10:40pm",
+							"type": "text"
+						},
+						{
+							"key": "fecha",
+							"value": "12/05/2019",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/app/registros",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"app",
+						"registros"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete registros",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:3000/app/registro/5d4ae9f5c936a70c772f010c",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"app",
+						"registro",
+						"5d4ae9f5c936a70c772f010c"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "put registro",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "hora_entrada",
+							"value": "10am",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/app/registro/5d4ae9f5c936a70c772f010c",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"app",
+						"registro",
+						"5d4ae9f5c936a70c772f010c"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET usuarios",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:3000/app/usuarios",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"app",
+						"usuarios"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Post usuarios",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "nombre",
+							"value": "Juan",
+							"type": "text"
+						},
+						{
+							"key": "apellido",
+							"value": "perez",
+							"type": "text"
+						},
+						{
+							"key": "cedula",
+							"value": "10857464889",
+							"type": "text"
+						},
+						{
+							"key": "direccion",
+							"value": "centro ",
+							"type": "text"
+						},
+						{
+							"key": "celular",
+							"value": "3216765673",
+							"type": "text"
+						},
+						{
+							"key": "correo",
+							"value": "jdjh@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "carrera",
+							"value": "Ingles",
+							"type": "text"
+						},
+						{
+							"key": "semestre",
+							"value": "6",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/app/usuarios",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"app",
+						"usuarios"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete usuario",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:3000/app/usuario/5d3c9a2eaac359283bc24569",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"app",
+						"usuario",
+						"5d3c9a2eaac359283bc24569"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Put usuarios",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "nombre",
+							"value": "Carmen",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/app/usuario/5d3c9a5a407f5628a7b13cab",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"app",
+						"usuario",
+						"5d3c9a5a407f5628a7b13cab"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get vigilantes",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:3000/app/vigilantes",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"app",
+						"vigilantes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST vigilantes",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "nombre",
+							"value": "eduar",
+							"type": "text"
+						},
+						{
+							"key": "apellido",
+							"value": "Perez",
+							"type": "text"
+						},
+						{
+							"key": "cedula",
+							"value": "10678456321",
+							"type": "text"
+						},
+						{
+							"key": "direccion",
+							"value": "cra46-12",
+							"type": "text"
+						},
+						{
+							"key": "celular",
+							"value": "3217895639",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/app/vigilantes",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"app",
+						"vigilantes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Put vigilante",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "nombre",
+							"value": "Juaquín",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/app/vigilante/5d3d16da1f57ff2037849ab5",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"app",
+						"vigilante",
+						"5d3d16da1f57ff2037849ab5"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete vigilante",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:3000/app/vigilante/5d3d16da1f57ff2037849ab5",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"app",
+						"vigilante",
+						"5d3d16da1f57ff2037849ab5"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
